@@ -1,15 +1,3 @@
-# filesystemrouterbug
+# Bun FileSystemRouter bug
 
-To install dependencies:
-
-```bash
-bun install
-```
-
-To run:
-
-```bash
-bun run index.ts
-```
-
-This project was created using `bun init` in bun v1.1.38. [Bun](https://bun.sh) is a fast all-in-one JavaScript runtime.
+When file `routes/[a]/test/index.ts` is present, the router will make the `a` an array in the `params` object.
