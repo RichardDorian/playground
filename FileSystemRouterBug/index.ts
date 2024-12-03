@@ -7,5 +7,5 @@ const router = new FileSystemRouter({
   fileExtensions: ['.ts'],
 });
 
-const matchedRoute = router.match('/categories/1/items/12?q=hello');
+const matchedRoute = router.match('/1/test/2');
 console.log(matchedRoute);
